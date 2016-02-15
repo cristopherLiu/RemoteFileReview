@@ -1,0 +1,6 @@
+framework module Pods_RemoteFileReview {
+  umbrella header "Pods-RemoteFileReview-umbrella.h"
+
+  export *
+  module * { export * }
+}
