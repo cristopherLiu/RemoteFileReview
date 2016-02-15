@@ -13,7 +13,7 @@
 		4F150EAA1C719C9300231354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F150EA81C719C9300231354 /* Main.storyboard */; };
 		4F150EAC1C719C9300231354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F150EAB1C719C9300231354 /* Assets.xcassets */; };
 		4F150EAF1C719C9300231354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F150EAD1C719C9300231354 /* LaunchScreen.storyboard */; };
-		4F150EB71C71A3B500231354 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F150EB61C71A3B500231354 /* Extension.swift */; };
+		4F150EB71C71A3B500231354 /* CL_FileReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F150EB61C71A3B500231354 /* CL_FileReview.swift */; };
 		4F150EBB1C71A54700231354 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F150EBA1C71A54700231354 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		4F150EAB1C719C9300231354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F150EAE1C719C9300231354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F150EB01C719C9300231354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F150EB61C71A3B500231354 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4F150EB61C71A3B500231354 /* CL_FileReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CL_FileReview.swift; sourceTree = "<group>"; };
 		4F150EBA1C71A54700231354 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		712EEC3791797F2191884C0F /* Pods-RemoteFileReview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteFileReview.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteFileReview/Pods-RemoteFileReview.release.xcconfig"; sourceTree = "<group>"; };
 		F3F6FC005F53FCC9AD99A015 /* Pods_RemoteFileReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteFileReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +84,7 @@
 		4F150EA31C719C9300231354 /* RemoteFileReview */ = {
 			isa = PBXGroup;
 			children = (
-				4F150EB61C71A3B500231354 /* Extension.swift */,
+				4F150EB61C71A3B500231354 /* CL_FileReview.swift */,
 				4F150EA41C719C9300231354 /* AppDelegate.swift */,
 				4F150EA61C719C9300231354 /* ViewController.swift */,
 				4F150EA81C719C9300231354 /* Main.storyboard */,
@@ -217,7 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F150EB71C71A3B500231354 /* Extension.swift in Sources */,
+				4F150EB71C71A3B500231354 /* CL_FileReview.swift in Sources */,
 				4F150EA71C719C9300231354 /* ViewController.swift in Sources */,
 				4F150EA51C719C9300231354 /* AppDelegate.swift in Sources */,
 			);
